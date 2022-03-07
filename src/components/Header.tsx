@@ -61,12 +61,12 @@ export default function Header() {
             >
               {orderBy === OrderBy.Ascending ? (
                 <>
-                  <ArrowNarrowDownIcon className='w-4 h-4' />
+                  <ArrowNarrowUpIcon className='w-4 h-4' />
                   <span className='ml-1'>Ascending</span>
                 </>
               ) : (
                 <>
-                  <ArrowNarrowUpIcon className='w-4 h-4' />
+                  <ArrowNarrowDownIcon className='w-4 h-4' />
                   <span className='ml-1'>Descending</span>
                 </>
               )}

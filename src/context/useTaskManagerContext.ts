@@ -8,7 +8,7 @@ const sortTaskByName = (task1: Task, task2: Task) => {
 };
 
 const sortTaskByPriority = (task1: Task, task2: Task) => {
-  return task2.priorityLevel - task1.priorityLevel;
+  return task1.priorityLevel - task2.priorityLevel;
 };
 
 export const useTaskManagerContext = () => {
