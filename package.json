@@ -10,9 +10,6 @@
     "format": "prettier . --write --ignore-path .gitignore && git update-index --again",
     "prepare": "husky install",
     "serve": "npm run build && vite preview --port 3000",
-    "test:unit": "jest --watch",
-    "test:unit:ci": "jest",
-    "test:unit:coverage": "jest --silent --watchAll=false --coverage",
     "cy:open": "yarn run cypress open --browser chrome",
     "cy:run": "yarn run cypress run --browser chrome",
     "typecheck": "tsc"
